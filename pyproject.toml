@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-scaffolding"
+version = "0.1.0"
+description = ""
+authors = ["rainzee wang <rainzee.w@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_scaffolding"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fire = "^0.5.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
